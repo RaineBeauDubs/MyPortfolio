@@ -31,11 +31,11 @@ const Contact = () => {
             </div>
             <div>
               <h4>GitHub</h4>
-              <p>RaineBeauDubs</p>
+              <a href="https://github.com/RaineBeauDubs">RaineBeauDubs</a>
             </div>
             <div>
               <h4>LinkedIn</h4>
-              <p>/raine-wallace</p>
+              <a href="https://www.linkedin.com/in/raine-wallace/">/raine-wallace</a>
             </div>
         </div>
       </div>
