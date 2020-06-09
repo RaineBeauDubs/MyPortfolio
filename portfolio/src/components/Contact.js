@@ -1,10 +1,18 @@
 import React from 'react';
 import './componentCSS/contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { 
+  faLinkedin, 
+  faGithub
+} from '@fortawesome/free-brands-svg-icons'
+import {
+  faAt,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   return (
     <div>
-      <h3>Get In Touch!</h3>
+      <h3 className="contactTitle">Get In Touch!</h3>
       <div className="flexSec">
         <form className="box">
           <div className="boxTop">
@@ -27,18 +35,18 @@ const Contact = () => {
             <button>Clear</button>
           </div>
         </form>
-        <div>
-          <div>
-            <h4>Email</h4>
-            <p>RaineBeauDubs@gmail.com</p>
+        <div className="contactLinkSec">
+          <div className="contactLink">
+            <FontAwesomeIcon className="icon" icon={faAt} />
+            <a href="#">RaineBeauDubs@gmail.com</a>
           </div>
-          <div>
-            <h4>GitHub</h4>
+          <div className="contactLink">
+          <FontAwesomeIcon className="icon" icon={faGithub} />
             <a href="https://github.com/RaineBeauDubs">RaineBeauDubs</a>
           </div>
-          <div>
-            <h4>LinkedIn</h4>
-            <a href="https://www.linkedin.com/in/raine-wallace/">/raine-wallace</a>
+          <div className="contactLink">
+          <FontAwesomeIcon className="icon" icon={faLinkedin} />
+            <a href="https://www.linkedin.com/in/raine-wallace/">/Raine-Wallace</a>
           </div>
         </div>
       </div>
