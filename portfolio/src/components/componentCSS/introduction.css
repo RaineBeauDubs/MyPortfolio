@@ -1,0 +1,26 @@
+p {
+  font-size: 1.3rem;
+}
+
+.introP {
+  margin-top: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.skillSecSec {
+  margin: 1rem 2rem;
+}
+
+.skillSec {
+  display: flex;
+  margin: 1rem;
+  justify-content: left;
+}
+
+.skillSec p {
+  margin: 0 0.5rem;
+}
