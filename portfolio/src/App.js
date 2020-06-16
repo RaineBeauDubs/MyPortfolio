@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <div className="pBody">
         <Navigation />
-        <h1>Welcome to my portfolio!</h1>
         <Introduction />
         <Contact />
       </div>
