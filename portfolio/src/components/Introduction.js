@@ -64,11 +64,15 @@ const Introduction = () => {
             <p>Python</p>
           </div>
           <div className="skillSec">
-            <FontAwesomeIcon className="icon" icon={faPeopleArrows} />
-            <p>Communication</p>
+            <FontAwesomeIcon className="icon" icon={faPeopleCarry} />
+            <p>Teamwork</p>
           </div>
         </div>
         <div className="skillSecSec">
+          <div className="skillSec">
+            <FontAwesomeIcon className="icon" icon={faPeopleArrows} />
+            <p>Communication</p>
+          </div>
           <div className="skillSec">
             <FontAwesomeIcon className="icon" icon={faGrinBeam} />
             <p>Customer Service</p>
@@ -84,10 +88,6 @@ const Introduction = () => {
           <div className="skillSec">
             <FontAwesomeIcon className="icon" icon={faBullhorn} />
             <p>Public Speaking</p>
-          </div>
-          <div className="skillSec">
-            <FontAwesomeIcon className="icon" icon={faPeopleCarry} />
-            <p>Teamwork</p>
           </div>
         </div>
       </div>
