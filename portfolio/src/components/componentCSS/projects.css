@@ -2,11 +2,16 @@
   display: flex;
   width: 100;
   justify-content: space-evenly;
+  padding: 2rem 0;
 }
 
 .proBox {
-  background-color: rgb(253, 226, 218);
   border-radius: 1rem;
+  width: 350px;
+}
+
+.proBox p {
+  font-size: 1.1rem;
 }
 
 .proImg {
@@ -16,10 +21,30 @@
   border-top-right-radius: 1rem;
 }
 
+.proInfo {
+  background-color: rgb(253, 226, 218);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
 .proTitle {
   font-weight: bold;
   font-size: 1.7rem;
   padding: 0.3rem;
+}
+
+.proDesc li {
+  text-align: left;
+  padding: 0.25rem 0.7rem;
+  font-size: 1rem;
+}
+
+.created {
+  font-size: 1.2rem;
+  margin-top: 0.9rem;
+  font-weight: bold;
+  text-align: left;
+  padding: 0.25rem 0.7rem;
 }
 
 .creFlex {
