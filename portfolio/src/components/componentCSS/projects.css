@@ -1,0 +1,9 @@
+.proCont {
+  display: flex;
+  width: 100;
+}
+
+.proImg {
+  width: 400px;
+  height: 300px;
+}
