@@ -14,7 +14,7 @@
   font-style: italic;
   margin: 3rem;
   animation-name: titleFade;
-  animation-duration: 13s;
+  animation-duration: 15s;
 }
 
 @keyframes titleFade {

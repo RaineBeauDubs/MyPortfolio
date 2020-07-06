@@ -22,7 +22,7 @@ import {
 const Introduction = () => {
   return (
     <div>
-      <p className="introP">Hello there! My name is Raine Wallace. I am a creative, curious, and communicative full-stack web developer <br /> who is super excited to join your team!</p>
+      <p className="introP">Hello there! My name is Raine Wallace. I am a creative, curious, and communicative full-stack web developer who is super excited to join your team!</p>
       <div className="flex">
         <div className="skillSecSec">
           <div className="skillSec">

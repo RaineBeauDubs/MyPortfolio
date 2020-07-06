@@ -1,9 +1,10 @@
 p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .introP {
-  margin-top: 1rem;
+  margin: 7%;
+  font-size: 1.5rem;
 }
 
 .flex {
@@ -17,7 +18,7 @@ p {
 
 .skillSec {
   display: flex;
-  margin: 1rem;
+  margin: 1.7rem;
   justify-content: left;
 }
 
