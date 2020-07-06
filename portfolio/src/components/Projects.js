@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="proInfo">
           <h3 className="proTitle">Rainy Day Resale</h3>
           <ul className="proDesc">
-            <li>Commissioned oficial website for a local consignment shop, worked closely with owner to meet stylistic and functional requests</li>
+            <li>Commissioned official website for a local consignment shop, worked closely with owner to meet stylistic and functional requests</li>
             <li>Collaborated with other local shops to create community page</li>
             <li>Solely responsible for every aspect of web application functionality and style</li>
           </ul>
