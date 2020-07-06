@@ -1,5 +1,17 @@
 import React from 'react';
 import './componentCSS/projects.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faHtml5,
+  faCss3,
+  faJs,
+  faReact,
+  faNodeJs,
+  faPython
+} from '@fortawesome/free-brands-svg-icons'
+import {
+  faDatabase,
+} from '@fortawesome/free-solid-svg-icons';
 
 
 const Projects = () => {
@@ -17,10 +29,24 @@ const Projects = () => {
           <p className="created">Created with:</p>
           <div className="creFlex">
             <div className="creFlexLeft">
-
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faHtml5} />
+                <p>HTML5</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faCss3} />
+                <p>CSS3</p>
+              </div>
             </div>
             <div className="creFlexRight">
-
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faJs} />
+                <p>JavaScript</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faReact} />
+                <p>React</p>
+              </div>
             </div>
           </div>
         </div>
@@ -37,10 +63,41 @@ const Projects = () => {
           <p className="created">Created with:</p>
           <div className="creFlex">
             <div className="creFlexLeft">
-
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faHtml5} />
+                <p>HTML5</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faCss3} />
+                <p>CSS3</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faJs} />
+                <p>JavaScript</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faReact} />
+                <p>React</p>
+              </div>
             </div>
             <div className="creFlexRight">
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faNodeJs} />
+                <p>Node.js</p>
+              </div>
 
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faNodeJs} />
+                <p>Express</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faDatabase} />
+                <p>SQL</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faDatabase} />
+                <p>PostgreSQL</p>
+              </div>
             </div>
           </div>
         </div>
@@ -57,10 +114,32 @@ const Projects = () => {
           <p className="created">Created with:</p>
           <div className="creFlex">
             <div className="creFlexLeft">
-
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faHtml5} />
+                <p>HTML5</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faCss3} />
+                <p>CSS3</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faJs} />
+                <p>JavaScript</p>
+              </div>
             </div>
             <div className="creFlexRight">
-
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faReact} />
+                <p>React</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faPython} />
+                <p>Python</p>
+              </div>
+              <div className="skillSec">
+                <FontAwesomeIcon className="icon" icon={faPython} />
+                <p>Django</p>
+              </div>
             </div>
           </div>
         </div>
