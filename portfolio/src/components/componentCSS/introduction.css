@@ -5,6 +5,7 @@ p {
 .introP {
   margin: 7%;
   font-size: 1.5rem;
+  text-align: left;
 }
 
 .flex {

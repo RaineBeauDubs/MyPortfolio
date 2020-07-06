@@ -22,7 +22,7 @@ import {
 const Introduction = () => {
   return (
     <div>
-      <p className="introP">Hello there! My name is Raine Wallace. I am a creative, curious, and communicative full-stack web developer who is super excited to join your team!</p>
+      <p className="introP">Hello there! My name is Raine Wallace. I am a creative, curious, and communicative full-stack web developer who is super excited to join your team! <br /> <br />Before focusing on  tech, I worked in retail management for years. The communication, customer service, and management skills I have picked up in that field translate even better than I ever thought they would into web development. Though I love a great team that works as a well-oiled machine, I will find my flow wherever I am needed, whether it's on a team, head of a team, a solo project, or even client facing!</p>
       <div className="flex">
         <div className="skillSecSec">
           <div className="skillSec">
