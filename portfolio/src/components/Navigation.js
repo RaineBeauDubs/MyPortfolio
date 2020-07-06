@@ -5,16 +5,19 @@ import './componentCSS/navigation.css';
 const Navigation = () => {
   return (
     <div className="nav">
-      <NavLink className="navLink" to="/">
+      <NavLink className="navLink" to="/" exact>
+        <h3>Home</h3>
+      </NavLink>
+      <NavLink className="navLink" to="/intro">
         <h3>Introduction</h3>
       </NavLink>
-      <NavLink className="navLink" to="/">
+      <NavLink className="navLink" to="/experience">
         <h3>Experience</h3>
       </NavLink>
-      <NavLink className="navLink" to="/">
+      <NavLink className="navLink" to="/projects">
         <h3>Projects</h3>
       </NavLink>
-      <NavLink className="navLink" to="/">
+      <NavLink className="navLink" to="/contact">
         <h3>Contact</h3>
       </NavLink>
     </div>
