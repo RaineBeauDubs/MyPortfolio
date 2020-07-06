@@ -1,9 +1,24 @@
 .proCont {
   display: flex;
   width: 100;
+  justify-content: space-evenly;
+}
+
+.proBox {
+  background-color: rgb(253, 226, 218);
+  border-radius: 1rem;
 }
 
 .proImg {
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 250px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
+
+.proTitle {
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding: 0.3rem;
+}
+
