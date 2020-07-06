@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import Introduction from './components/Introduction';
+import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { Route } from 'react-router-dom';
@@ -20,6 +21,10 @@ function App() {
       <Route 
         path="/intro"
         component={Introduction}
+      />
+      <Route 
+        path="/experience"
+        component={Experience}
       />
       <Route 
         path="/projects"
