@@ -8,3 +8,12 @@
   text-decoration: none;
   color: black;
 }
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+.activeNavLink {
+  text-decoration: underline;
+  font-weight: bold;
+}

@@ -14,7 +14,7 @@ const Contact = () => {
     <div>
       <h3 className="contactTitle">Get In Touch!</h3>
       <div className="flexSec">
-        <form className="box">
+        {/* <form className="box">
           <div className="boxTop">
             <input
               type="text"
@@ -34,7 +34,7 @@ const Contact = () => {
             <button>Send</button>
             <button>Clear</button>
           </div>
-        </form>
+        </form> */}
         <div className="contactLinkSec">
           <div className="contactLink">
             <FontAwesomeIcon className="icon" icon={faAt} />
