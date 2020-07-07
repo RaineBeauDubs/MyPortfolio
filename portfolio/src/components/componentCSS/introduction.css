@@ -20,9 +20,20 @@ p {
 .skillSec {
   display: flex;
   margin: 1.7rem;
-  justify-content: left;
+  justify-content: center;
 }
 
 .skillSec p {
   margin: 0 0.5rem;
+}
+
+@media (max-width:600px) {
+  .flex {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .skillSecSec {
+    margin: 0;
+  }
 }

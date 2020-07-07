@@ -21,3 +21,13 @@
   from {color: rgb(253, 205, 190);}
   to {color: black;}
 }
+
+@media (max-width:600px) {
+  .homeTitle {
+    font-size: 7rem;
+  }
+  
+  .homeSubTitle {
+    font-size: 3rem;
+  }
+}
