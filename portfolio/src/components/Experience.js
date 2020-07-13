@@ -64,7 +64,7 @@ const Experience = () => {
             <ListItems>Spent an eight-week unit with a group of 3 to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
           </List>
         </Sec>
-        <Sec>
+        {/* <Sec>
           <Title>Rainy Day Resale</Title>
           <InfDtAlign>
             <Info>Manager, Co-Owner | La Grange, KY</Info>
@@ -76,7 +76,7 @@ const Experience = () => {
             <ListItems>Refined customer service skills daily by supporting customers and consignors, personal shopping, and resolving any conflicts that came up</ListItems>
             <ListItems>Contributed to being awarded "Best Consignment" in the "Best of Oldham" competition for every year the competition has taken place (6 years and counting!)</ListItems>
           </List>
-        </Sec>
+        </Sec> */}
       </ResSectionBottom>
     </ResSection>
   )
