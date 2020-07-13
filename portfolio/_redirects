@@ -1,7 +1,19 @@
-/* /index.html   200
-/
-/intro 302
-/experience 302
-/projects 302
-/contact 302
-https://www.rainewallace.com
+[[redirects]]
+  from = "/*"
+  to = "/intro"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/experience"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/projects"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/contact"
+  status = 200
