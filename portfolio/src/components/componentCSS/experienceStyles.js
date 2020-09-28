@@ -39,6 +39,7 @@ export const InfDtAlign = styled.div`
 
 export const Info = styled.h3`
   font-weight: bold;
+  text-decoration: none;
 `;
 
 export const Dates = styled.h2`

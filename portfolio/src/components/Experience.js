@@ -64,6 +64,16 @@ const Experience = () => {
             <ListItems>Spent an eight-week unit with a group of 3 to create the front-end and the back-end of a project that met the demands of a real external stakeholder</ListItems>
           </List>
         </Sec>
+        <div>
+          <a href="https://www.youracclaim.com/badges/3409297e-fbba-4ab2-97b8-dcd3c7291148/public_url">
+          <img 
+          src="/images/LambdaBadge.png"
+          alt="Lambda School accreditation"
+          />
+          
+          <Info>Check out my accreditation from Lambda Schol here</Info>
+          </a>
+        </div>
         {/* <Sec>
           <Title>Rainy Day Resale</Title>
           <InfDtAlign>
