@@ -59,3 +59,8 @@ export const ListItems = styled.li`
   min-width: 35rem;
   font-size: 1.2rem;
 `;
+
+export const BadgeLink = styled.a`
+  text-decoration: none;
+  color: black;
+`;

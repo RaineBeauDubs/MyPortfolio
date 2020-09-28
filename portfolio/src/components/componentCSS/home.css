@@ -18,7 +18,7 @@
 }
 
 @keyframes titleFade {
-  from {color: rgb(253, 205, 190);}
+  from {color: rgba(233, 233, 233, 0.815);}
   to {color: black;}
 }
 
