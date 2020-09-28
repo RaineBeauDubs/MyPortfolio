@@ -39,7 +39,6 @@ export const InfDtAlign = styled.div`
 
 export const Info = styled.h3`
   font-weight: bold;
-  text-decoration: none;
 `;
 
 export const Dates = styled.h2`
@@ -59,4 +58,9 @@ export const ListItems = styled.li`
   justify-content: space-evenly
   min-width: 35rem;
   font-size: 1.2rem;
+`;
+
+export const BadgeLink = styled.a`
+  text-decoration: none;
+  color: black;
 `;

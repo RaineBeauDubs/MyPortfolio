@@ -8,7 +8,8 @@ import {
   Info,
   Dates,
   List,
-  ListItems
+  ListItems,
+  BadgeLink
 } from './componentCSS/experienceStyles';
 
 
@@ -65,14 +66,13 @@ const Experience = () => {
           </List>
         </Sec>
         <div>
-          <a href="https://www.youracclaim.com/badges/3409297e-fbba-4ab2-97b8-dcd3c7291148/public_url">
+          <BadgeLink href="https://www.youracclaim.com/badges/3409297e-fbba-4ab2-97b8-dcd3c7291148/public_url">
           <img 
           src="/images/LambdaBadge.png"
           alt="Lambda School accreditation"
           />
-          
           <Info>Check out my accreditation from Lambda Schol here</Info>
-          </a>
+          </BadgeLink>
         </div>
         {/* <Sec>
           <Title>Rainy Day Resale</Title>
