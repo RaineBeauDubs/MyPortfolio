@@ -20,7 +20,7 @@ p {
 .skillSec {
   display: flex;
   margin: 1.7rem;
-  justify-content: center;
+  justify-content: left;
 }
 
 .skillSec p {
