@@ -71,7 +71,7 @@ const Experience = () => {
           src="/images/LambdaBadge.png"
           alt="Lambda School accreditation"
           />
-          <Info>Check out my accreditation from Lambda Schol here!</Info>
+          <Info>Check out my accreditation from Lambda School here!</Info>
           </BadgeLink>
         </div>
         {/* <Sec>

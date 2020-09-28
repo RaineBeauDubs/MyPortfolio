@@ -63,4 +63,5 @@ export const ListItems = styled.li`
 export const BadgeLink = styled.a`
   text-decoration: none;
   color: black;
+  margin-bottom: 1rem;
 `;
